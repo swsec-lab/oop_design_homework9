@@ -79,3 +79,15 @@ Pop: C++
 Pop: World
 Pop: Hello
 ```
+
+## 심화 학습
+- `begin()` / `end()` 메서드를 추가하여 **범위 기반 for문(range-based for loop)**을 지원한다.
+- `testVector()` 함수의 for loop를 **range-based for loop** 형태로 수정해본다.
+  ```cpp
+  for (auto& e : vec) {
+      cout << e << " ";
+  }
+  ```
+
+
+
